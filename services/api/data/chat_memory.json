@@ -1,0 +1,451 @@
+{
+  "5cae3ba7-09f6-49d4-b91a-25b1cca34322": {
+    "session_id": "5cae3ba7-09f6-49d4-b91a-25b1cca34322",
+    "messages": [
+      {
+        "role": "user",
+        "content": "average package manipal"
+      },
+      {
+        "role": "assistant",
+        "content": "Data not available in campus records"
+      }
+    ]
+  },
+  "a28513ed-9165-4e7a-8743-db3cad45e986": {
+    "session_id": "a28513ed-9165-4e7a-8743-db3cad45e986",
+    "messages": [
+      {
+        "role": "user",
+        "content": "average package manipal"
+      }
+    ]
+  },
+  "293b1ca6-c74d-4e45-9c85-dcc7ecd38529": {
+    "session_id": "293b1ca6-c74d-4e45-9c85-dcc7ecd38529",
+    "messages": [
+      {
+        "role": "user",
+        "content": "average placement manipal"
+      },
+      {
+        "role": "assistant",
+        "content": "Data not available in campus records"
+      }
+    ]
+  },
+  "6dd87550-1c5b-41f0-a975-729620d9b398": {
+    "session_id": "6dd87550-1c5b-41f0-a975-729620d9b398",
+    "messages": [
+      {
+        "role": "user",
+        "content": "average placement manipal"
+      },
+      {
+        "role": "assistant",
+        "content": "Data not available in campus records."
+      },
+      {
+        "role": "user",
+        "content": "I am Chaitanya"
+      },
+      {
+        "role": "assistant",
+        "content": "Data not available in campus records"
+      },
+      {
+        "role": "user",
+        "content": "average package manipal"
+      },
+      {
+        "role": "assistant",
+        "content": "* Overall Average Package: **12 LPA**\n* CSE: **18 LPA**\n* IT: **15 LPA**\n* ECE: **11 LPA**"
+      }
+    ]
+  },
+  "94da33c0-148b-44a1-8252-de490b7f6c4a": {
+    "session_id": "94da33c0-148b-44a1-8252-de490b7f6c4a",
+    "messages": [
+      {
+        "role": "user",
+        "content": "average placement manipal"
+      },
+      {
+        "role": "assistant",
+        "content": "From campus data:\n* The average salary package at Manipal Institute of Technology is **12 LPA**.\n* Branch-wise averages: CSE (**18 LPA**), IT (**15 LPA**), and ECE (**11 LPA**)."
+      }
+    ]
+  },
+  "d86dd4b9-c2d0-43ef-bc74-74ea5573ff6c": {
+    "session_id": "d86dd4b9-c2d0-43ef-bc74-74ea5573ff6c",
+    "messages": [
+      {
+        "role": "user",
+        "content": "average placement manipal"
+      },
+      {
+        "role": "assistant",
+        "content": "From campus data:\n* Overall Average Package: **12 LPA**\n* CSE Average: **18 LPA**\n* IT Average: **15 LPA**\n* ECE Average: **11 LPA**"
+      },
+      {
+        "role": "user",
+        "content": "Who is the PM of INDIA?"
+      },
+      {
+        "role": "assistant",
+        "content": "From campus data:\n* The provided data does not contain information regarding the PM of India.\n* Available information is limited to campus placement stats like the **12 LPA** average package.\n* Branch-specific details include **18 LPA** for CSE and **15 LPA** for IT."
+      },
+      {
+        "role": "user",
+        "content": "Who is the PM of INDIA?"
+      },
+      {
+        "role": "assistant",
+        "content": "From campus data:\n*   The provided campus data does not contain information regarding the PM of India.\n*   Available records are limited to placement statistics, such as the **12 LPA** institute average.\n*   Branch-specific data includes **18 LPA** for CSE and **15 LPA** for IT."
+      }
+    ]
+  },
+  "b0011180-2782-4c7e-a20a-8bd35e073dbe": {
+    "session_id": "b0011180-2782-4c7e-a20a-8bd35e073dbe",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Who is the PM of INDIA?"
+      },
+      {
+        "role": "assistant",
+        "content": "From campus data:\n*   The provided campus data does not contain information regarding the PM of India.\n*   The data is strictly limited to placement statistics, such as the overall average package of **12 LPA**.\n*   Specific branch details include **18 LPA** for CSE, **15 LPA** for IT, and **11 LPA** for ECE."
+      }
+    ]
+  },
+  "bb5b28cd-849b-4613-8c18-23bd8dd59ede": {
+    "session_id": "bb5b28cd-849b-4613-8c18-23bd8dd59ede",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Who is the PM of INDIA?"
+      },
+      {
+        "role": "assistant",
+        "content": "General knowledge (not related to MIT Bengaluru):\nThe current Prime Minister of India is **Narendra Modi**.\n\n*   He has been in office since May 26, 2014.\n*   He is currently serving his third consecutive term following the 2024 general elections.\n*   He is a member of the Bharatiya Janata Party (BJP)."
+      },
+      {
+        "role": "user",
+        "content": "cse placement"
+      },
+      {
+        "role": "assistant",
+        "content": "From campus data:\n* The average salary package for the CSE branch is **18 LPA**.\n* This is higher than the institute's overall average package of **12 LPA**."
+      }
+    ]
+  },
+  "e52d86c1-f208-4d65-aa93-b710cdcebfd4": {
+    "session_id": "e52d86c1-f208-4d65-aa93-b710cdcebfd4",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Average package"
+      },
+      {
+        "role": "assistant",
+        "content": "From campus data:\nHere are the average salary packages offered at Manipal Institute of Technology:\n* Overall Average: **12 LPA**\n* CSE: **18 LPA**\n* IT: **15 LPA**\n* ECE: **11 LPA**"
+      },
+      {
+        "role": "user",
+        "content": "generate stats graph"
+      },
+      {
+        "role": "assistant",
+        "content": "General knowledge (not related to MIT Bengaluru):\nHere is a visual representation of the average placement packages in LPA.\n* CSE (18): ■■■■■■■■■■■■■■■■■■\n* IT (15): ■■■■■■■■■■■■■■■\n* Overall (12): ■■■■■■■■■■■■\n* ECE (11): ■■■■■■■■■■■"
+      },
+      {
+        "role": "user",
+        "content": "Hello, are you able to listen to me?"
+      },
+      {
+        "role": "assistant",
+        "content": "General knowledge (not related to MIT Bengaluru):\nYes, I can receive and process your text inputs clearly.\n* Feel free to ask follow-up questions about MIT or any other topic.\n* I am active and ready to assist with your specific requests.\n* please let me know how I can help you further today."
+      },
+      {
+        "role": "user",
+        "content": "Look."
+      },
+      {
+        "role": "assistant",
+        "content": "General knowledge (not related to MIT Bengaluru):\nI am standing by and ready to analyze whatever you have in mind.\n* Please share the specific data, question, or context you want me to review.\n* I can provide details on college placements, academics, or any general query.\n* Simply type your full request so I can assist you further."
+      }
+    ]
+  },
+  "03f9ab10-d950-4b84-90fb-e5989c3469a5": {
+    "session_id": "03f9ab10-d950-4b84-90fb-e5989c3469a5",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Average package"
+      },
+      {
+        "role": "assistant",
+        "content": "From campus data:\nHere are the average salary package details for Manipal Institute of Technology:\n* Overall average package: **12 LPA**\n* CSE: **18 LPA**\n* IT: **15 LPA**\n* ECE: **11 LPA**"
+      }
+    ]
+  },
+  "1776102544300-xow3h8bx": {
+    "session_id": "1776102544300-xow3h8bx",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Average package"
+      }
+    ]
+  },
+  "1776104622434-q9hxogrw": {
+    "session_id": "1776104622434-q9hxogrw",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Average package"
+      },
+      {
+        "role": "assistant",
+        "content": "Campus Data:\nHere are the average salary details for Manipal Institute of Technology:\n*   Overall average package: **12 LPA**\n*   CSE average package: **18 LPA**\n*   IT average package: **15 LPA**\n*   ECE average package: **11 LPA**\n\nCitation: campus dataset"
+      },
+      {
+        "role": "user",
+        "content": "What is love?"
+      },
+      {
+        "role": "assistant",
+        "content": "General Knowledge:\nLove is a complex emotion, or potentially a typo for \"lowest\" salary data.\n* The minimum salary package for Manipal Institute of Technology is currently unknown.\n* Current records only provide average packages, such as 12 LPA for the institution.\n* In a human context, love represents a deep bond of affection and care."
+      }
+    ]
+  },
+  "1776105001090-f0sapxif": {
+    "session_id": "1776105001090-f0sapxif",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Average package"
+      },
+      {
+        "role": "assistant",
+        "content": "The average salary package offered at Manipal Institute of Technology is 12 LPA."
+      },
+      {
+        "role": "user",
+        "content": "what is photosynthesis?"
+      },
+      {
+        "role": "user",
+        "content": "whats photosynthesis?"
+      }
+    ]
+  },
+  "1776105229162-th83pc61": {
+    "session_id": "1776105229162-th83pc61",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Average package"
+      },
+      {
+        "role": "assistant",
+        "content": "The average salary package offered at Manipal Institute of Technology is 12 LPA.\n\nSpecific branch averages are:\n* CSE: 18 LPA\n* IT: 15 LPA\n* ECE: 11 LPA"
+      },
+      {
+        "role": "user",
+        "content": "whats photosynthesis?"
+      },
+      {
+        "role": "assistant",
+        "content": "In simple terms, **photosynthesis** is the process by which plants, algae, and some bacteria turn sunlight into food.\n\nIt is one of the most important biological processes on Earth because it provides the energy for almost all life and creates the oxygen we breathe.\n\nHere is a breakdown of how it works:\n\n### 1. The \"Ingredients\"\nTo make food, a plant needs three main things:\n*   **Sunlight:** Captured by a green pigment called **chlorophyll** (found inside the plant's leaves).\n*   **Water ($H_2O$):** Absorbed from the ground through the roots.\n*   **Carbon Dioxide ($CO_2$):** Absorbed from the air through tiny holes in the leaves called stomata.\n\n### 2. The Process\nInside the plant's cells are tiny \"factories\" called **chloroplasts**. This is where the magic happens. Using the energy from the sun, the plant breaks down the water and carbon dioxide and rearranges them into two things:\n1.  **Glucose (Sugar):** This is the plant's food. It uses this energy to grow, flower, and produce fruit.\n2.  **Oxygen ($O_2$):** This is a \"waste product\" for the plant, so it releases it back into the air.\n\n### 3. The Formula\nIf you were to write it like a math equation, it would look like this:\n> **Carbon Dioxide + Water + Sunlight $\\rightarrow$ Glucose + Oxygen**\n\n### Why is it so important?\n*   **Energy:** Almost every living thing on Earth eats either plants or animals that eat plants. Without photosynthesis, there would be no food.\n*   **Air:** Humans and animals need oxygen to survive. Photosynthesis is the primary source of the oxygen in our atmosphere.\n*   **Climate:** Plants help regulate the Earth’s temperature by scrubbing carbon dioxide (a greenhouse gas) out of the air."
+      }
+    ]
+  },
+  "1776105756333-feovxs5s": {
+    "session_id": "1776105756333-feovxs5s",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Average package"
+      },
+      {
+        "role": "assistant",
+        "content": "The average salary package offered at Manipal Institute of Technology is 12 LPA."
+      }
+    ]
+  },
+  "1776188368327-w6mxr6ph": {
+    "session_id": "1776188368327-w6mxr6ph",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I see so how we have famous."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you are asking **how people become famous** or **how the concept of fame works** in our society today.\n\nFame has changed a lot over the years. Here is a breakdown of how \"famous\" happens in the modern world:\n\n### 1. The \"Traditional\" Path (Talent and Industry)\nThis is the classic way people become famous. It usually involves a \"gatekeeper\" (like a talent agent, a record label, or a movie studio).\n*   **Examples:** Actors, professional athletes, and pop stars.\n*   **How it works:** A person has a specific skill, they work for years to perfect it, and a large company invests money to promote them to the public.\n\n### 2. The \"New\" Path (Social Media and Algorithms)\nToday, you don't need a big company to become famous. You just need an internet connection.\n*   **Examples:** YouTubers, TikTokers, and Influencers.\n*   **How it works:** A person creates content that the \"algorithm\" likes. If people share it and engage with it, the platform shows it to millions of people. This is often called \"viral\" fame.\n\n### 3. The \"Famous for being Famous\" Path (Reality TV/Personal Brand)\nSome people become famous not for a specific talent (like singing or sports), but because their personality or lifestyle is interesting to the public.\n*   **Examples:** The Kardashians or reality TV stars.\n*   **How it works:** By sharing their private lives on TV or social media, they create a \"brand\" that people follow like a story.\n\n### 4. Accidental Fame\nSometimes people become famous because they were in the right place at the wrong time, or they did something that became a \"meme.\"\n*   **How it works:** A video of a person doing something funny, brave, or strange gets shared globally. Most of the time, this fame is short-lived (the \"15 minutes of fame\").\n\n### Why do we \"have\" famous people? (The Psychology)\nAs humans, we are wired to look for leaders and role models. Fame happens because:\n*   **Shared Connection:** Having famous people gives us something to talk about with strangers (e.g., \"Did you see that movie?\" or \"Did you see that game?\").\n*   **Aspiration:** We like to look at people who have achieved great things (or have a lot of money) and imagine what it would be like to be them.\n*   **Parasocial Relationships:** We feel like we \"know\" famous people because we see them so often on our screens, even though they don't know us.\n\n**Are you asking about a specific person, or were you wondering how the process of fame has changed lately?**"
+      }
+    ]
+  },
+  "1776189393002-x7w5gkdg": {
+    "session_id": "1776189393002-x7w5gkdg",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello."
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! How can I help you today?"
+      },
+      {
+        "role": "user",
+        "content": "Jack Callaghan."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please provide more context regarding **Jack Callaghan**?\n\nTo provide you with the right information, I need to know which Jack Callaghan you are interested in. For example, are you asking about:\n\n*   **Jack Callaghan (Journalist):** The longtime news anchor and reporter for WCNC in Charlotte, North Carolina?\n*   **An athlete?** (There are several historical and regional figures in sports with this name).\n*   **A specific professional or historical figure?**\n\nPlease let me know what you would like to know about him."
+      },
+      {
+        "role": "user",
+        "content": "Ah, what was Somerset? Or summer gone together? Or Summer gone together?"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you are recalling a line from the famous traditional folk song **\"The Water is Wide\"** (also known by its older Scottish title, **\"O Waly, Waly\"**).\n\nThe line you are thinking of is often misheard or debated because of the archaic language used. The most likely \"correct\" version of the line is:\n\n> **\"Since we together in summer sate...\"**\n\n### Why the confusion?\n1.  **The word \"Sate\":** \"Sate\" is an archaic past tense of the verb \"to sit\" (meaning \"sat\").\n2.  **Phonetic similarity:** When sung, **\"Summer sate\"** sounds almost identical to **\"Somerset\"** (the English county) or **\"Summer set.\"**\n3.  **Variations:** Because the song has been passed down through oral tradition for centuries, different singers use different variations. You might hear:\n    *   \"Since we together in summer **sat**\"\n    *   \"When we together in summer **set**\" (referring to the sun setting or the season being established)\n    *   \"When we together in summer **were**\"\n\n### The Context\nIn the song, this line is usually part of a verse describing the early, happy days of a relationship before the love \"grows old and waxes cold.\" The full stanza often goes something like this:\n\n> *I leaned my back against an oak,*\n> *Thinking it was a trusty tree;*\n> *But first it bent and then it broke,*\n> *So did my love prove false to me.*\n>\n> ***Since we together in summer sate,***\n> *To hear the small birds singing sweet,*\n> *I little thought that the morning sun*\n> *Would see my love and me to part.*\n\n### Summary\nThe phrase you are looking for is likely **\"Summer sate together\"** or **\"Summer sat together.\"** The \"Somerset\" version is a classic **mondegreen**—a misheard lyric that has become popular because it sounds so much like the original!"
+      },
+      {
+        "role": "user",
+        "content": "Call Vikram."
+      },
+      {
+        "role": "assistant",
+        "content": "I don’t have access to your phone’s contacts or the ability to make calls directly. \n\nTo call Vikram, you can:\n1. **Use your phone's built-in assistant:** Say \"Hey Siri\" or \"Hey Google,\" followed by \"Call Vikram.\"\n2. **Open your Phone app** and search for \"Vikram\" in your contacts."
+      },
+      {
+        "role": "user",
+        "content": "Got it to get car."
+      },
+      {
+        "role": "assistant",
+        "content": "That’s great! To help you with the next steps, could you clarify what you mean?\n\nFor example:\n* Did you get **loan approval** and need help with the buying process?\n* Did you get a **ride-share or rental app** working?\n* Are you looking for advice on the **best way to pick up** a car you just bought?"
+      },
+      {
+        "role": "user",
+        "content": "Are you my neighbor? Is there some Aarambhi rayadam who is out of flight?"
+      },
+      {
+        "role": "assistant",
+        "content": "I am an AI, so I don’t have a physical home or neighbors in the real world. I exist only on servers.\n\nRegarding **\"Aarambhi rayadam,\"** I am not familiar with that name or phrase. It doesn't appear to be a well-known public figure, a common news story, or a standard term in my database.\n\nIt’s possible that:\n1.  It is a **private individual** or someone from your local community.\n2.  It is a **misspelling** of a name or a specific term in another language (like Telugu or Sanskrit).\n3.  It refers to a very recent event or a specific person involved in a flight-related incident that hasn't been widely indexed yet.\n\nIf you can provide more context—such as where you heard the name or if it relates to a specific news event—I might be able to help you find more information."
+      },
+      {
+        "role": "user",
+        "content": "South Africa players of vaginal diagram."
+      },
+      {
+        "role": "assistant",
+        "content": "It is possible that there may be a typo in your request, or you are looking for specific medical information regarding South African health organizations or anatomical education.\n\nTo be as helpful as possible, I will address this from two angles: **the anatomical layers of the vagina** (in case \"players\" was a typo for \"layers\") and the **key organizations (players) in South African women’s health.**\n\n### 1. The Layers of the Vaginal Wall (Anatomy)\nIf you are looking for a diagram or description of the structure of the vagina, it is composed of four main tissue layers:\n\n*   **The Mucosa (Inner layer):** This is the innermost lining made of stratified squamous epithelium. It has folds called \"rugae\" that allow the vagina to expand during childbirth or intercourse.\n*   **The Submucosa:** A layer of connective tissue rich in blood vessels and nerves.\n*   **The Muscularis (Muscle layer):** Consists of smooth muscle fibers (inner circular and outer longitudinal) that allow for contraction and stretching.\n*   **The Adventitia (Outer layer):** A thick layer of connective tissue that anchors the vagina to surrounding organs like the bladder and rectum.\n\n### 2. Key \"Players\" in South African Women’s Health\nIf you are looking for the major organizations or stakeholders (\"players\") in South Africa that provide education, diagrams, and reproductive health services, here are the most prominent:\n\n*   **The National Department of Health (NDoH):** The primary body responsible for reproductive health policy and education in South Africa.\n*   **The Sexual and Reproductive Justice Coalition (SRJC):** A major advocacy group in South Africa focusing on reproductive rights and education.\n*   **Health4AnyBody / Anova Health Institute:** These organizations provide extensive health resources and anatomical education across the country.\n*   **SECTION27:** A public interest law center that focus on the right to healthcare services in South Africa, including reproductive health.\n*   **Marie Stopes South Africa:** A well-known NGO that provides reproductive healthcare and educational materials regarding female anatomy and contraception.\n\n### 3. Where to find reliable diagrams in South Africa\nIf you are looking for a physical or digital diagram for educational purposes within the South African context, the following resources are recommended:\n\n*   **South African Health Review:** Published annually, it contains data and often educational graphics.\n*   **Western Cape Government Health Website:** They provide many \"Patient Information\" pamphlets with clear, medically accurate diagrams.\n*   **The South African Medical Association (SAMA):** Provides peer-reviewed medical illustrations for practitioners and students.\n\n**If you intended to ask about something else—such as a specific sport, a team, or a different medical topic—please provide more details so I can better assist you.**"
+      },
+      {
+        "role": "user",
+        "content": "Shyam Sadhguru."
+      },
+      {
+        "role": "assistant",
+        "content": "Namaskaram!\n\nIt seems you are referring to **Sadhguru** (Jaggi Vasudev). Whether you are looking for his teachings, information about the Isha Foundation, or perhaps a specific quote, I am here to help.\n\nIf \"Shyam\" refers to Lord Krishna (often called Shyam), Sadhguru has spoken extensively about him in his \"Krishna: The Path of the Playful\" series.\n\nHow can I assist you today? Are you looking for:\n1.  **Sadhguru's perspective** on a specific topic?\n2.  Information about **Isha Yoga programs**?\n3.  **Quotes** or daily wisdom?\n4.  Details about the **Adiyogi** or Dhyanalinga?\n\nLet me know how I can help!"
+      },
+      {
+        "role": "user",
+        "content": "Ignore."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood. I'm here if you need anything else!"
+      },
+      {
+        "role": "user",
+        "content": "Huh."
+      },
+      {
+        "role": "assistant",
+        "content": "Is there something you're unsure about, or is there something specific I can help you with? Please let me know if you have a question!"
+      },
+      {
+        "role": "user",
+        "content": "But I can put some Iron Man, but I don't know whether."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you are working on a project—maybe a story, a game, a piece of art, or even a room design—and you aren't sure if Iron Man (Tony Stark) fits or how to include him.\n\nTo help you decide, here are a few ways to think about it based on what you might be doing:\n\n### 1. If you are writing a story or fanfic:\n*   **The \"Mentor\" Role:** If your story has a younger hero, Iron Man is great as a mentor figure who provides tech and snarky advice.\n*   **The \"Tech Provider\":** You don't even need Tony Stark to show up physically. You can just have \"Stark Industries\" equipment or an AI (like JARVIS or FRIDAY) appear.\n*   **The \"Whether\" (The Risk):** The downside of putting Iron Man in a story is that he is a \"big\" character. He tends to take over the scene. If you want the focus to stay on someone else, keep his cameo short.\n\n### 2. If you are making art or a design:\n*   **Color Palette:** You don’t have to draw the whole character. You can use his signature **Hot Rod Red and Gold** colors. It’s a \"hidden\" way to include him.\n*   **The Arc Reactor:** Using just the glowing chest piece is a very iconic, classy way to represent Iron Man without showing his face.\n\n### 3. If you are worried about \"Vibe\" (Tonal Fit):\n*   **Does he fit the world?** If your world is very serious and gritty, Iron Man might feel too \"superhero-y.\"\n*   **But...** if your world needs a bit of humor, high-tech gadgets, or a \"billionaire genius\" energy, he is the perfect fit.\n\n### 4. If you are worried about Copyright (Legal):\n*   **If it’s for fun:** Put him in! Fan art and fan fiction are great.\n*   **If you plan to sell it:** You generally cannot use Iron Man because Marvel/Disney owns the trademark. In this case, you might want to create a \"parody\" character who is *like* Iron Man but different enough to be your own.\n\n**What kind of project are you working on?** If you tell me more, I can give you a specific suggestion on how to \"put some Iron Man\" in there!"
+      }
+    ]
+  },
+  "1776190193232-l38x9u6x": {
+    "session_id": "1776190193232-l38x9u6x",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello, are you able to listen to me?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, I am here and ready to help! \n\nWhether you are typing to me or using a voice-to-text feature, I can process your messages. How can I assist you today?"
+      }
+    ]
+  },
+  "1776192013952-fn13zsgv": {
+    "session_id": "1776192013952-fn13zsgv",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi, what is your name?"
+      },
+      {
+        "role": "assistant",
+        "content": "I am Gemini, a large language model built by Google."
+      },
+      {
+        "role": "user",
+        "content": "But are you trained for Manipal Institute of Technology?"
+      },
+      {
+        "role": "assistant",
+        "content": "Data not available in campus records."
+      },
+      {
+        "role": "user",
+        "content": "What's the average placement for CSE?"
+      },
+      {
+        "role": "assistant",
+        "content": "18 LPA"
+      }
+    ]
+  },
+  "1779699772649-f6fvf864": {
+    "session_id": "1779699772649-f6fvf864",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello."
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! How can I help you today?"
+      }
+    ]
+  },
+  "1779700514013-30uhkfp7": {
+    "session_id": "1779700514013-30uhkfp7",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Average package"
+      },
+      {
+        "role": "assistant",
+        "content": "The average salary package offered at Manipal Institute of Technology is 12 LPA."
+      }
+    ]
+  }
+}

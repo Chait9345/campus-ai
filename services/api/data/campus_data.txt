@@ -1,0 +1,8 @@
+AVERAGE PACKAGE DATA:
+
+The average salary package offered at Manipal Institute of Technology is 12 LPA.
+
+BRANCH DATA:
+CSE average package is 18 LPA.
+IT average package is 15 LPA.
+ECE average package is 11 LPA.

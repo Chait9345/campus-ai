@@ -1,0 +1,34 @@
+{
+  "companies": [
+    { "id": "google", "name": "Google", "aliases": ["Alphabet"] },
+    { "id": "microsoft", "name": "Microsoft", "aliases": ["MSFT"] },
+    { "id": "acme", "name": "Acme Corp", "aliases": [] }
+  ],
+  "questions_by_company": {
+    "google": [
+      { "text": "Tell me about yourself and why you are interested in this role.", "type": "HR", "difficulty": "easy" },
+      { "text": "Describe a technical challenge you solved recently.", "type": "Core", "difficulty": "medium" },
+      { "text": "Implement a function to detect a cycle in a linked list.", "type": "DSA", "difficulty": "hard" }
+    ],
+    "microsoft": [
+      { "text": "Why do you want to work at Microsoft?", "type": "HR", "difficulty": "easy" },
+      { "text": "Tell me about a time you collaborated in a diverse team.", "type": "HR", "difficulty": "medium" },
+      { "text": "How would you design a rate limiter for an API?", "type": "Core", "difficulty": "hard" }
+    ],
+    "acme": [
+      { "text": "Walk me through your strongest project.", "type": "Core", "difficulty": "easy" },
+      { "text": "What would your manager say is your top strength?", "type": "HR", "difficulty": "medium" }
+    ],
+    "_default": [
+      { "text": "Introduce yourself in two minutes.", "type": "HR", "difficulty": "easy" },
+      { "text": "What motivates you in your career?", "type": "HR", "difficulty": "medium" },
+      { "text": "Describe a difficult feedback you received and how you responded.", "type": "HR", "difficulty": "hard" }
+    ]
+  },
+  "mock_feedback_templates": [
+    "Structured answer — consider adding a concrete metric next time.",
+    "Good clarity; try to link your example more directly to the role.",
+    "Solid response — you could shorten the setup and expand the outcome.",
+    "Nice specifics; remember to state your personal contribution clearly."
+  ]
+}
