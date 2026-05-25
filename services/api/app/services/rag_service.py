@@ -178,35 +178,6 @@ def _ensure_collection() -> None:
     _chroma_client = chromadb.PersistentClient(path=str(CHROMA_PATH))
     _collection = _chroma_client.get_or_create_collection(name=CHROMA_COLLECTION)
 
-    if _collection.count() > 0:
-        return
-
-    records = _load_documents()
-    ids: list[str] = []
-    metadatas: list[dict[str, Any]] = []
-    docs: list[str] = []
-    embeds: list[list[float]] = []
-
-    for record in records:
-        for ci, chunk in enumerate(_semantic_chunk(record["text"])):
-            source = record["metadata"]["source_file"]
-            section = record["metadata"]["section"]
-            page_number = int(record["metadata"]["page_number"])
-            chunk_id = hashlib.md5(f"{source}:{section}:{ci}:{chunk[:60]}".encode("utf-8")).hexdigest()
-            ids.append(chunk_id)
-            docs.append(chunk)
-            metadatas.append(
-                {
-                    "source_file": source,
-                    "section": section,
-                    "page_number": page_number,
-                }
-            )
-            embeds.append(_embed_texts([chunk], task_type="retrieval_document")[0])
-
-    if ids:
-        _collection.add(ids=ids, embeddings=embeds, documents=docs, metadatas=metadatas)
-
 
 def ingest_file_into_collection(path: Path) -> dict[str, Any]:
     """Read a single file, chunk, embed and upsert into the Chroma collection.
@@ -249,37 +220,42 @@ def ingest_file_into_collection(path: Path) -> dict[str, Any]:
 
 
 def retrieve_relevant_context(query: str, top_k: int = TOP_K) -> dict[str, Any]:
-    _ensure_collection()
-    if not query.strip() or _collection is None or _collection.count() == 0:
+    try:
+        _ensure_collection()
+        if not query.strip() or _collection is None or _collection.count() == 0:
+            return {"context": "", "items": []}
+        k = max(3, min(5, top_k))
+        query_embedding = _embed_texts([query.strip()], task_type="retrieval_query")[0]
+        raw = _collection.query(query_embeddings=[query_embedding], n_results=k)
+        docs = (raw.get("documents") or [[]])[0]
+        metas = (raw.get("metadatas") or [[]])[0]
+        dists = (raw.get("distances") or [[]])[0]
+
+        items: list[dict[str, Any]] = []
+        for doc, meta, dist in zip(docs, metas, dists):
+            distance = float(dist or 0.0)
+            relevance = 1.0 / (1.0 + distance)
+            if relevance < MIN_RELEVANCE:
+                continue
+            safe_meta = meta or {}
+            items.append(
+                {
+                    "text": doc or "",
+                    "metadata": {
+                        "source_file": safe_meta.get("source_file", "unknown"),
+                        "section": safe_meta.get("section", "unknown"),
+                        "page_number": int(safe_meta.get("page_number", 0) or 0),
+                        "relevance": round(relevance, 4),
+                    },
+                }
+            )
+
+        context_text = "\n\n".join(item["text"] for item in items if item["text"].strip())
+        return {"context": context_text, "items": items}
+    except Exception as e:
+        # If embedding fails, return empty context so chat still works
+        print(f"RAG retrieval failed: {e}")
         return {"context": "", "items": []}
-    k = max(3, min(5, top_k))
-    query_embedding = _embed_texts([query.strip()], task_type="retrieval_query")[0]
-    raw = _collection.query(query_embeddings=[query_embedding], n_results=k)
-    docs = (raw.get("documents") or [[]])[0]
-    metas = (raw.get("metadatas") or [[]])[0]
-    dists = (raw.get("distances") or [[]])[0]
-
-    items: list[dict[str, Any]] = []
-    for doc, meta, dist in zip(docs, metas, dists):
-        distance = float(dist or 0.0)
-        relevance = 1.0 / (1.0 + distance)
-        if relevance < MIN_RELEVANCE:
-            continue
-        safe_meta = meta or {}
-        items.append(
-            {
-                "text": doc or "",
-                "metadata": {
-                    "source_file": safe_meta.get("source_file", "unknown"),
-                    "section": safe_meta.get("section", "unknown"),
-                    "page_number": int(safe_meta.get("page_number", 0) or 0),
-                    "relevance": round(relevance, 4),
-                },
-            }
-        )
-
-    context_text = "\n\n".join(item["text"] for item in items if item["text"].strip())
-    return {"context": context_text, "items": items}
 
 
 def _fallback_full_text_context() -> str:
