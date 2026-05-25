@@ -1,0 +1,175 @@
+Campus Placement Knowledge Base - Test Data
+
+=== COMPANY RECRUITMENT PROCESS ===
+
+Question: What is the typical recruitment process at our campus?
+Answer: The typical recruitment process includes the following stages:
+1. Pre-placement talks (PPT) - Company introduces itself and job roles
+2. Online assessment - Coding test, aptitude test, or case study (2-3 hours)
+3. Technical interview - 45-60 minutes covering data structures, algorithms, and system design
+4. HR interview - 20-30 minutes discussing background, motivation, and cultural fit
+5. Offer letter - Issued within 1-2 weeks after final round
+
+=== INTERNSHIP OPPORTUNITIES ===
+
+Question: What internship opportunities are available?
+Answer: We offer multiple internship programs:
+- Summer Internship (May-July): 2-3 months, stipend Rs. 15,000-25,000 per month
+- Winter Internship (December-January): 1-2 months, stipend Rs. 10,000-15,000 per month
+- Extended Internship (6 months): For final year students, stipend Rs. 20,000-30,000 per month
+- Research Internship: Unpaid, focus on research and publication
+
+Eligibility: Minimum CGPA 7.0, no active backlogs
+
+=== PLACEMENT STATISTICS ===
+
+Question: What are the placement statistics for the last batch?
+Answer: Last year's placement statistics:
+- Total students: 450
+- Placed students: 420 (93.3% placement rate)
+- Average package: Rs. 8.5 LPA (Lakhs Per Annum)
+- Highest package: Rs. 42 LPA
+- Lowest package: Rs. 4.5 LPA
+- Companies recruited: 85+ companies
+- Top recruiters: Google, Microsoft, Amazon, Goldman Sachs, Flipkart, Swiggy, Zomato
+
+=== SALARY PACKAGES ===
+
+Question: What is the average salary package offered?
+Answer: Salary packages vary by role and company:
+- Software Development Engineer (SDE): Rs. 8-15 LPA
+- Data Scientist: Rs. 10-18 LPA
+- Product Manager: Rs. 12-20 LPA
+- Consulting: Rs. 10-16 LPA
+- Finance/Banking: Rs. 8-14 LPA
+
+Average package across all roles: Rs. 8.5 LPA
+Median package: Rs. 7.5 LPA
+
+=== INTERVIEW PREPARATION ===
+
+Question: How should I prepare for technical interviews?
+Answer: Here's a comprehensive preparation guide:
+1. Data Structures & Algorithms (3-4 weeks):
+   - Arrays, Linked Lists, Trees, Graphs, Hash Tables
+   - Sorting, Searching, Dynamic Programming
+   - Practice on LeetCode, HackerRank (minimum 100 problems)
+
+2. System Design (2-3 weeks):
+   - Database design, scalability, caching
+   - Microservices, API design
+   - Study: Designing Data-Intensive Applications
+
+3. Core Subjects (2 weeks):
+   - Operating Systems, DBMS, Computer Networks
+   - Review class notes and standard textbooks
+
+4. Mock Interviews (2 weeks):
+   - Practice with peers or use platforms like Pramp
+   - Record yourself and review
+
+5. Company-specific prep (1 week):
+   - Research company tech stack
+   - Review recent projects and blog posts
+
+=== ELIGIBLE BRANCHES ===
+
+Question: Which branches are eligible for placements?
+Answer: All branches are eligible for placements:
+- Computer Science & Engineering (CSE)
+- Information Technology (IT)
+- Electronics & Communication Engineering (ECE)
+- Electrical Engineering (EE)
+- Mechanical Engineering (ME)
+- Civil Engineering (CE)
+
+Note: Some companies may have branch-specific requirements. Check individual company criteria.
+
+=== PLACEMENT TIMELINE ===
+
+Question: When does the placement season start?
+Answer: Placement timeline for the academic year:
+- August-September: Pre-placement talks (PPT) and registrations
+- September-October: Online assessments and technical interviews
+- October-November: HR rounds and offer letters
+- December onwards: Joining dates for internships and full-time roles
+
+Early placements: Some companies conduct placements in July-August
+Off-campus placements: Throughout the year
+
+=== CGPA REQUIREMENTS ===
+
+Question: What is the minimum CGPA required for placements?
+Answer: CGPA requirements vary by company:
+- Most companies: Minimum 6.5 CGPA
+- Premium companies (Google, Microsoft, etc.): Minimum 7.5 CGPA
+- Some companies: No CGPA cutoff
+- Banking sector: Minimum 7.0 CGPA
+
+Note: Students with CGPA below 6.5 can still apply for off-campus placements and internships.
+
+=== HIGHER STUDIES ===
+
+Question: What support is provided for higher studies (MS/PhD)?
+Answer: Support for higher studies:
+- Dedicated counseling sessions for MS/PhD aspirants
+- GRE/GMAT preparation workshops
+- University shortlisting guidance
+- Scholarship information and application support
+- Alumni network for referrals
+
+Popular universities for MS: CMU, Stanford, MIT, UC Berkeley, UT Austin
+Popular universities for PhD: IIT Delhi, IIT Bombay, IISC Bangalore
+
+=== STARTUP OPPORTUNITIES ===
+
+Question: Are there opportunities to start a startup instead of placement?
+Answer: Yes, we support startup ventures:
+- Startup incubation cell on campus
+- Seed funding up to Rs. 5 lakhs
+- Mentorship from industry experts
+- Co-working space and resources
+- Tax benefits and legal support
+- Alumni investor network
+
+Success stories: 15+ startups founded by alumni, 3 unicorns
+
+=== INTERNATIONAL PLACEMENTS ===
+
+Question: Are there international placement opportunities?
+Answer: Yes, international placements are available:
+- Countries: USA, Canada, UK, Germany, Singapore, Australia
+- Average package: $80,000-150,000 USD per annum
+- Companies: Google, Microsoft, Amazon, Apple, Meta, etc.
+- Visa sponsorship: Provided by most companies
+- Relocation assistance: Available
+
+Percentage of international placements: ~15% of total placements
+
+=== PLACEMENT RULES AND REGULATIONS ===
+
+Question: What are the placement rules and regulations?
+Answer: Key placement rules:
+1. Students must maintain minimum attendance (75%)
+2. No active backlogs at the time of placement
+3. Students can accept maximum 2 offers (one primary, one backup)
+4. Offer acceptance is binding - cannot reject after accepting
+5. Joining date cannot be postponed beyond 6 months
+6. Students must inform placement office of any changes
+7. Ethical conduct during interviews is mandatory
+8. No plagiarism or dishonesty in applications
+
+Violations may result in debarment from future placements.
+
+=== PLACEMENT OFFICE CONTACT ===
+
+Question: How do I contact the placement office?
+Answer: Placement office details:
+- Location: Building A, Ground Floor, Room 101
+- Email: placements@campus.edu.in
+- Phone: +91-XXXX-XXXXXX
+- Office hours: 9 AM - 5 PM (Monday-Friday)
+- Emergency contact: +91-XXXX-XXXXXX (after hours)
+
+Placement coordinator: Dr. Rajesh Kumar
+Assistant coordinator: Ms. Priya Sharma
