@@ -12,8 +12,8 @@ import pandas as pd
 from pypdf import PdfReader
 
 # Gemini embeddings use the same GEMINI_API_KEY as chat.
-# Use the latest embedding model available
-GEMINI_EMBED_MODEL = os.getenv("GEMINI_EMBED_MODEL", "models/text-embedding-004")
+# Use embedding-001 which is stable and widely available
+GEMINI_EMBED_MODEL = os.getenv("GEMINI_EMBED_MODEL", "models/embedding-001")
 TOP_K = 5
 MIN_RELEVANCE = 0.55
 MAX_CHUNK_TOKENS = 500
