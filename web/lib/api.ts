@@ -57,30 +57,35 @@ export async function requestChat(
   message: string,
   sessionId?: string | null
 ): Promise<ChatRequestPayload | Record<string, unknown>> {
-  const res = await fetch(`${API_URL}/chat`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      message,
-      session_id: sessionId ?? null,
-    }),
-  });
-  const data = (await res.json()) as Record<string, unknown> & {
-    success?: boolean;
-    error?: string | null;
-    data?: ChatRequestPayload;
-  };
-  if (!res.ok) {
-    throw new Error(
-      typeof data?.error === "string" ? data.error : `Chat request failed with status ${res.status}`
-    );
+  try {
+    const res = await fetch(`${API_URL}/chat`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        message,
+        session_id: sessionId ?? null,
+      }),
+    });
+    const data = (await res.json()) as Record<string, unknown> & {
+      success?: boolean;
+      error?: string | null;
+      data?: ChatRequestPayload;
+    };
+    if (!res.ok) {
+      throw new Error(
+        typeof data?.error === "string" ? data.error : `Chat request failed with status ${res.status}`
+      );
+    }
+    if (data.success === false) {
+      throw new Error(typeof data.error === "string" ? data.error : "Chat request failed");
+    }
+    return data?.data ?? data;
+  } catch (error) {
+    console.error("Chat request error:", error);
+    throw error;
   }
-  if (data.success === false) {
-    throw new Error(typeof data.error === "string" ? data.error : "Chat request failed");
-  }
-  return data?.data ?? data;
 }
 
 export async function startInterview(): Promise<ChatResponse> {
