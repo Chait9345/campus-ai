@@ -136,18 +136,27 @@ export interface UploadDocumentResult {
 }
 
 export async function uploadDocument(file: File): Promise<UploadDocumentResult> {
-  const form = new FormData();
-  form.append("file", file);
+  try {
+    const form = new FormData();
+    form.append("file", file);
 
-  const res = await fetch(`${API_URL}/documents/upload`, {
-    method: "POST",
-    body: form,
-  });
+    console.log(`Uploading to: ${API_URL}/documents/upload`);
+    const res = await fetch(`${API_URL}/documents/upload`, {
+      method: "POST",
+      body: form,
+    });
 
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(text || `Upload failed with status ${res.status}`);
+    if (!res.ok) {
+      const text = await res.text();
+      console.error(`Upload failed with status ${res.status}:`, text);
+      throw new Error(text || `Upload failed with status ${res.status}`);
+    }
+
+    const result = (await res.json()) as UploadDocumentResult;
+    console.log("Upload successful:", result);
+    return result;
+  } catch (error) {
+    console.error("Upload error:", error);
+    throw error;
   }
-
-  return (await res.json()) as UploadDocumentResult;
 }
