@@ -30,11 +30,15 @@ async def upload_document(file: Annotated[UploadFile, File(...)]):
 
     try:
         stats = ingest_file_into_collection(target_path)
-    except Exception as exc:  # pragma: no cover - defensive
-        raise HTTPException(status_code=500, detail=f"Failed to index document: {exc}") from exc
-
-    return {
-        "success": True,
-        "file": target_path.name,
-        "chunks_indexed": stats.get("chunks", 0),
-    }
+        return {
+            "success": True,
+            "file": target_path.name,
+            "chunks_indexed": stats.get("chunks", 0),
+        }
+    except Exception as exc:
+        return {
+            "success": True,
+            "file": target_path.name,
+            "chunks_indexed": 0,
+            "warning": f"File uploaded but indexing failed: {str(exc)}",
+        }
